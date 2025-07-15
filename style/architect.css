@@ -133,22 +133,62 @@ main{
         padding: 20px;
     }
 }
-
+ /* love-enjoy section style  */
+#love-enjoy{
+    border-left: 5px solid rgb(223, 103, 23);
+}
+.love-enjoy-title{
+    font-size: 2.8rem;
+    font-weight: 700px;
+    padding: 20px;
+}
+.section-item{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgb(221, 219, 219);
+    border-radius: 8px;
+}
+.love-enjoy-container{
+    gap: 30px;
+}
+.love-enjoy{
+    gap: 50px;
+}
+.experience-button{
+    background-color: #FF900E;
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.exp-button{
+    font-size: 1.6rem;
+}
+.love-enjoy-image{
+        width: 100%;
+}
 /* some-facts style  */
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 50px;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
     
 }
 .facts{
     border: 1px solid tomato;
     border-radius: 8px;
     padding: 20px;
-    max-width: 242px;
-    max-height: 242px;
+    width: 242px;
+    height: 242px;
     text-align: center;
+    align-items: center;
+    justify-items: center;
 }
 .some-facts{
     max-width: 1440px;
@@ -157,10 +197,14 @@ main{
 .fact-number{
     font-size: 2.8rem;
     font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .fact-name{
     font-size: 1.4rem;
     font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 5px;
 }
 .fact-image{
     max-width: 45px;
@@ -206,6 +250,9 @@ main{
 .facts-description{
     font-size: 1rem;
 }
+.sponsor-image-container{
+    filter: grayscale(100%);
+}
 @media screen and (max-width:575px) {
     .sponsor-image-container{
         flex-direction: column;
@@ -218,5 +265,9 @@ main{
     }
     .facts-content{
         padding: 50px;
+    }
+    .experience-button{
+        margin-top: -100px;
+        margin-left: 0;
     }
 }
